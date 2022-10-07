@@ -34,8 +34,8 @@ body{
     width: 935px;
     height: 100%;
     margin: 88px auto 0 auto;
-    border: 1px solid #000000;
     display: flex;
+    position: relative;
     justify-content: space-between;
 }
 .container-feed{
@@ -113,9 +113,21 @@ body{
 .sidebar{
     width: 293px;
     height: 100%;
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    /*Depois de 20 minutos de 
+    sofrimento descobri como usa sticky*/
+    top: 120px;
+}
+
+.meu-perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.nome{
+    margin-left: 10px;
 }
 
 .caixa-sugestoes{
@@ -132,6 +144,7 @@ body{
 .sugestao{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 5px;
 }
 
@@ -140,7 +153,7 @@ body{
     align-items: center;
 }
 
-.imagem-perfil{
+.nome-e-status{
     margin: 5px;
 }
 
