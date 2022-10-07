@@ -163,4 +163,13 @@ body{
     color: #c7c7c7;
 }
 
-
+@media (max-width:935px){
+    .sidebar{
+        display: none;
+    }
+    .container{
+        justify-content: center;
+        width: 100%;
+        max-width: 935px;
+    }
+}
