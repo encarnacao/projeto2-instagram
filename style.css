@@ -165,7 +165,6 @@ ion-icon{
 .post{
     width: 614px;
     margin: 0px 0px 60px 0px;
-    height: 749px;
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
@@ -206,19 +205,10 @@ ion-icon{
 }
 
 
-
-.imagem{
-    height: 612px;
-}
-
 .imagem img{
     width: 100%;
 }
 
-.baixo{
-    height: 72px;
-    position: relative;
-}
 
 .lcs{
     font-size: 22px;
@@ -371,6 +361,12 @@ ion-icon{
     .container-feed{
         width: 100%;
     }
+
+    .imagem{
+        aspect-ratio: 1/1;
+        width: 100%;
+    }
+
     .stories{
         overflow: auto;
         overflow-x: hidden;
