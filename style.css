@@ -236,13 +236,6 @@ ion-icon{
     width: 20px;
 }
 
-.save{
-    position: absolute;
-    right: 15px; /*Revisar Right e Top*/
-    top: 10px;
-    font-size: 22px;
-}
-
 .sidebar{
     width: 293px;
     height: 100%;
@@ -278,13 +271,14 @@ ion-icon{
 }
 
 .meu-perfil p{
+    margin-top: 5px;
     font-size: 14px;
     font-weight: 300;
 }
 
 
 .nome{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .caixa-sugestoes{
@@ -302,11 +296,28 @@ ion-icon{
     font-weight: 500;
 }
 
+.header-sugestao a{
+    font-size: 12px;
+    color: #262626;
+    font-weight: 500;
+}
+
 .sugestao{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
+}
+
+.sugestao img{
+    width: 32px;
+    margin-right: 10px;
+}
+
+.sugestao a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #139ef2;
 }
 
 .perfil-sugerido{
