@@ -6,7 +6,15 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+}
+
+ion-icon{
+    cursor: pointer;
 }
 
 .barra-topo{
@@ -110,6 +118,7 @@ body{
 }
 
 .story{
+    cursor: pointer;
     margin-left: 12px;
     display: flex;
     min-height: 85px;
@@ -122,9 +131,12 @@ body{
     width: 66px;
 }
 
+.perfil-img{
+    border-radius: 50%;
+}
+
 .story .perfil-img{
     position: absolute;
-    border-radius: 50%;
     width: 56px;
     top: 5px;
 }
@@ -156,16 +168,39 @@ body{
     height: 749px;
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
+    border-radius: 3px;
 }
 
 .topo{
-    border: 1px solid black;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 25px;
+    padding: 0px 15px 0px 5px;
 }
+
+.post a{
+    font-weight: 500;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    width: 32px;
+}
+
+.perfil a{
+    color: #262626;
+    font-size: 14px;
+}
+
+.perfil a, .post p{
+    margin-left: 10px;
+}
+
 .reticencias{
     font-size:20px;
 }
@@ -173,12 +208,14 @@ body{
 
 
 .imagem{
-    border: 1px solid red;
     height: 612px;
 }
 
+.imagem img{
+    width: 100%;
+}
+
 .baixo{
-    border: 1px solid green;
     height: 72px;
     position: relative;
 }
@@ -186,11 +223,19 @@ body{
 .lcs{
     font-size: 22px;
     margin: 10px; /*Revisar*/
+    display: flex;
+    justify-content: space-between;
 }
 .curtidas{
     display: flex;
+    align-items: center;
     margin: 10px;
 }
+
+.curtidas img{
+    width: 20px;
+}
+
 .save{
     position: absolute;
     right: 15px; /*Revisar Right e Top*/
@@ -209,11 +254,35 @@ body{
     top: 120px;
 }
 
+.sidebar h1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.sidebar p{
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+
 .meu-perfil{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    font-size: 14px;
 }
+
+.meu-perfil img{
+    width: 56px;
+}
+
+.meu-perfil p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
 .nome{
     margin-left: 10px;
 }
@@ -227,6 +296,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-sugestao p{
+    font-weight: 500;
 }
 
 .sugestao{
@@ -278,7 +351,7 @@ body{
 
 @media (max-width: 614px){
     body{
-        background-color: #FFFFFF;
+        background-color: #FAFAFA;
     }
 
     .container,
@@ -290,6 +363,8 @@ body{
     .stories{
         overflow: auto;
         overflow-x: hidden;
+        background-color: transparent;
+        border: none;
     }
 
     .container{
