@@ -210,6 +210,9 @@ ion-icon{
     width: 100%;
 }
 
+.imagem video{
+    width: 100%;
+}
 
 .lcs{
     font-size: 22px;
@@ -225,6 +228,10 @@ ion-icon{
 
 .curtidas img{
     width: 20px;
+}
+
+.curtidas a{
+    color: black;
 }
 
 .sidebar{
@@ -361,11 +368,6 @@ ion-icon{
     .post,
     .stories,
     .container-feed{
-        width: 100%;
-    }
-
-    .imagem{
-        aspect-ratio: 1/1;
         width: 100%;
     }
 
