@@ -328,8 +328,11 @@ ion-icon{
 }
 
 
-.links{
+.grey-text{
     margin-top: 30px;
+}
+
+.grey-text p{
     font-size: 11px;
     color: #c7c7c7;
 }
