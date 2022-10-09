@@ -247,7 +247,7 @@ ion-icon{
 .comentario{
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin: 10px 0px;
 
 }
 
