@@ -169,6 +169,7 @@ ion-icon{
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+    font-size: 14px;
 }
 
 .topo{
@@ -179,8 +180,9 @@ ion-icon{
     padding: 0px 15px 0px 5px;
 }
 
-.post a{
+.profile{
     font-weight: 500;
+    cursor: pointer;
 }
 
 .perfil{
@@ -192,9 +194,9 @@ ion-icon{
     width: 32px;
 }
 
-.perfil a{
+.post a{
     color: #262626;
-    font-size: 14px;
+    font-weight: 500;
 }
 
 .perfil a, .post p{
@@ -232,6 +234,78 @@ ion-icon{
 
 .curtidas a{
     color: black;
+    font-weight: 500;
+}
+
+.legenda{
+    margin: 10px;
+}
+
+.comentarios{
+    margin: 10px; 
+}
+.comentario{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+
+.comentario a{
+    color: #00409F;
+}
+
+.cinza{
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+.tempo{
+    font-size: 10px;
+    color: #8e8e8e;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.comment{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DBDBDB;
+    padding: 13px;
+}
+
+.comment .esquerda{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+.comment svg{
+    cursor: pointer;
+}
+
+#comentario{
+    margin: 0px 10px;
+    width: 100%;
+    border: none;
+    
+}
+
+#comentario:focus{
+    outline:none;
+}
+
+.comment h1{
+    font-weight: 500;
+    color: #B2DFFC;
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+.comment h1:hover{
+    color: #0095F6;
 }
 
 .sidebar{
